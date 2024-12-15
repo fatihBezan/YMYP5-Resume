@@ -16,12 +16,13 @@ public partial class FrmAbout : Form
 
     private void FrmAbout_Load(object sender, EventArgs e)
     {
-        // githup action
+        // github action
         DataGridFill();
     }
 
     private void btnAdd_Click(object sender, EventArgs e)
     {
+        // continue 
         var about = new About();
         about.Description = rtbxDescription.Text;
         _aboutService.Insert(about);
