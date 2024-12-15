@@ -16,6 +16,7 @@ public partial class FrmAbout : Form
 
     private void FrmAbout_Load(object sender, EventArgs e)
     {
+        // githup action
         DataGridFill();
     }
 
