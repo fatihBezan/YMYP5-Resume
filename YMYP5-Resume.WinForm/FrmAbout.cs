@@ -1,12 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.ComponentModel;
-using System.Data;
-using System.Drawing;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using System.Windows.Forms;
+﻿
 using YMYP5_Resume.Business.Abstract;
 using YMYP5_Resume.Business.DependencyInjection.AutoFac;
 using YMYP5_Resume.Entity.Concrete;
